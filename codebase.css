@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5rem;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  padding: 2rem;
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img{
+  height: 30px;
+  margin: 2rem;
+}
+
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.red a{
+  background-color: blue;
+  color:#fff;
+  /* height: 10px; */
+    /* width:20px; */
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+#hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  /* height: 30px; */
+}
+#hero h1{
+  width: 245px;
+}
+#hero p{
+  margin-top: 1.7rem;
+  margin-bottom: 30px;
+}
+#hero a{
+  color: white;
+  background-color: blue;
+  padding: 10px;
+}
+
+.center{
+  /* margin:  0 40%; */
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+#ThreeBoxes{
+  display: flex;
+  justify-content: space-between;
+  margin:  0 18rem 0;
+  text-align: center;
+  padding: 2px;
+}
+
+.boxes{
+  border: 1px solid;
+  border-radius: 2px;
+  height: 380px;
+  width: 300px ;
+  margin: 0 10px;
+  /* padding: 2px; */
+}
+
+div .boxes ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  flex-direction: row;
+  padding: 0 5px;
+}
+
+.box{
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+ padding: 1px 2px;
+}
+#crical{
+  display: flex;
+  justify-content: center;
+}
+#crical span{
+  height: 7px;
+  width: 7px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 50%;
+  margin: 5px;
+}
